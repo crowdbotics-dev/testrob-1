@@ -1,4 +1,3 @@
-import { Text } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -9,20 +8,13 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.QVATLsmB}>Lorem ipsum…</Text></ScrollView>
+    }}></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
-  },
-  QVATLsmB: {
-    width: 100,
-    height: 50,
-    lineHeight: 14,
-    fontSize: 14,
-    borderRadius: 0
   }
 });
 export default Untitled1;
